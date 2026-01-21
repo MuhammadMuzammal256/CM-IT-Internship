@@ -1,3 +1,7 @@
+console.log('Hello Eid');
+
+
+
 function firstName (name,callback){
     console.log(`My Name is ${name}`);
     callback(bigCity("TTS",abc));
@@ -8,7 +12,7 @@ function lastName(){
 function bigCity(cityName, callback2){
     console.log(`My city is ${cityName}`)
     
-    callback2(`im call back 2 ${byeje("monday")}`)
+    callback2(`im call back 2 ${byeje("monday",a)}`)
 }
 function byeje(today,callback3){
     console.log(`${today}`);
