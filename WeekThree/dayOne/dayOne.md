@@ -1,15 +1,14 @@
-Started the Microsoft Azure Fundamentals course
 
+Tasks Completed Week-3 Day-One:
+Only Basics:
+Started Microsoft Azure Fundamentals course
 Completed Module 1 (Cloud Concepts & Azure Basics)
-
-Learned about IaaS, PaaS, SaaS, and core Azure services
-
+Learned about IaaS, PaaS, SaaS and core Azure services
 Understood cloud benefits: scalability, reliability, and cost efficiency
-
-Improved understanding of cloud infrastructure
-
-Built a strong foundation for upcoming Azure modules
-
-Updated GitHub
-
 Revised all concepts from the past two weeks
+Git Commands:
+•git pull
+• git fetch
+• git push origin feature-js
+• git reset --soft HEAD~1
+• git revert <commit-hash>
