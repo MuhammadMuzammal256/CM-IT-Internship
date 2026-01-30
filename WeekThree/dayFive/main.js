@@ -9,6 +9,10 @@ let myCommentMassage = document.querySelector(".commentMassage");
 let myCheckbox = document.querySelector(".checkboxCheck");
 
 
+function showError(input, message) {
+  input.parentElement.lastElementChild.innerText = message;
+}
+
 document.querySelector(".regForm").addEventListener("submit", function (e) {
   e.preventDefault();
   let isValid = true;
@@ -43,6 +47,7 @@ document.querySelector(".regForm").addEventListener("submit", function (e) {
     isValid = false;
   }else if(myAge.value <0){
      showError(myAge, "Please Enter Positive Number");
+      isValid = false;
 
   }
 
@@ -73,6 +78,8 @@ console.log("Age:", localStorage.getItem("Age"));
 console.log("Comment:", localStorage.getItem("Comment"));
 console.log("Check:", localStorage.getItem("Check"));
  location.reload();
+
+
     
   }
 
@@ -80,45 +87,10 @@ console.log("Check:", localStorage.getItem("Check"));
 
 });
 
-
-
-
-
-function showError(input, message) {
-  input.parentElement.lastElementChild.innerText = message;
-}
-function goToDisplay() {
-  window.location.href = "disply.html";
-}
-
-function showSavedData() {
-  let saveData = document.querySelector(".showData");
-  let savedName = localStorage.getItem("Name");
-  let savedEmail = localStorage.getItem("Email");
-  let savedPassword = localStorage.getItem("Password");
-  let savedAge = localStorage.getItem("Age");
-  let savedComment = localStorage.getItem("Comment");
-  let savedCheck = localStorage.getItem("Check");
-
-  if (saveData) {
-    if (savedName && savedEmail && savedPassword && savedAge && savedComment) {
-      saveData.innerHTML = `
-        <h3>My Saved Data</h3>
-        <p>Name: ${savedName}</p>
-        <p>Email: ${savedEmail}</p>
-        <p>Password: ${savedPassword}</p>
-        <p>Age: ${savedAge}</p>
-        <p>Comment: ${savedComment}</p>
-        <p>Accepted Terms: ${savedCheck}</p>
-      `;
-    } else {
-      saveData.innerHTML = "<p>No data saved yet.</p>";
-    }
-  }
-}
-
 document.querySelector(".reset").addEventListener("click",function(){
   localStorage.clear();
+
 })
 
 
+    
