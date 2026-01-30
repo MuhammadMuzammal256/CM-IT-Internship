@@ -63,7 +63,7 @@ localStorage.setItem("Email", myEmail.value);
 localStorage.setItem("Password", myPassword.value);
 localStorage.setItem("Age", myAge.value);
 localStorage.setItem("Comment", myCommentMassage.value);
-localStorage.setItem("Check", myCheckbox.checked); // true/false
+localStorage.setItem("Check", myCheckbox.checked); 
 
 
 console.log("Name:",myName.value);
@@ -109,7 +109,7 @@ function showSavedData() {
         <p>Password: ${savedPassword}</p>
         <p>Age: ${savedAge}</p>
         <p>Comment: ${savedComment}</p>
-        <p>Accepted Terms: ${savedCheck === "true" ? "Yes" : "No"}</p>
+        <p>Accepted Terms: ${savedCheck}</p>
       `;
     } else {
       saveData.innerHTML = "<p>No data saved yet.</p>";
