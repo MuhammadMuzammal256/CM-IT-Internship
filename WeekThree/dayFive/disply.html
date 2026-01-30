@@ -1,44 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
 </head>
+
 <body>
-<div class="showData"></div>
 
-<script>
-function showSavedData() {
-  let saveData = document.querySelector(".showData");
 
-  let savedName = localStorage.getItem("Name");
-  let savedEmail = localStorage.getItem("Email");
-  let savedPassword = localStorage.getItem("Password");
-  let savedAge = localStorage.getItem("Age");
-  let savedComment = localStorage.getItem("Comment");
-  let savedCheck = localStorage.getItem("Check");
+<nav class="navbar">
+<h1>
+    My Web First Page
+  </h1>
+  <ul>
+    <li><a href="validForm.html"><h2>Home</h2></a></li>
+    <li><a href="validForm.html"><h2>Form</h2></a></li>
+    <li><a href="disply.html"><h2>SaveData</h2></a></li>
+  </ul>
+</nav>
+<main>
+  <section class="head">
+   
+ 
+    <div class="container">
+      <div class="showData"></div>
+    </div>
+     <div class="des">
+         <h3>Data Save Screen</h3>
+    <p>This page shows data saved from the form using localStorage.</p>
+    </div>
+  </section>
+</main>
+<footer class="footer">
+  <p>© 2026 My Web First Page. All rights reserved.</p>
+  <p>todays task</p>
+</footer>
 
-  if(saveData) {
-    if(savedName && savedEmail && savedPassword && savedAge && savedComment) {
-      saveData.innerHTML = `
-        <h3>My Saved Data</h3>
-        <p>Name: ${savedName}</p>
-        <p>Email: ${savedEmail}</p>
-        <p>Password: ${savedPassword}</p>
-        <p>Age: ${savedAge}</p>
-        <p>Comment: ${savedComment}</p>
-        <p>Accepted Terms: ${savedCheck === "true" ? "Yes" : "No"}</p>
-      `;
-    } else {
-      saveData.innerHTML = "<p>No data saved yet.</p>";
+
+
+  <script>
+    function showSavedData() {
+      let saveData = document.querySelector(".showData");
+
+      let savedName = localStorage.getItem("Name");
+      let savedEmail = localStorage.getItem("Email");
+      let savedPassword = localStorage.getItem("Password");
+      let savedAge = localStorage.getItem("Age");
+      let savedComment = localStorage.getItem("Comment");
+      let savedCheck = localStorage.getItem("Check");
+
+      if (saveData) {
+        if (savedName && savedEmail && savedPassword && savedAge && savedComment) {
+          saveData.innerHTML = `
+            <h2>My Saved Data</h2>
+            <p>Name: ${savedName}</p>
+            <p>Email: ${savedEmail}</p>
+            <p>Password: ${savedPassword}</p>
+            <p>Age: ${savedAge}</p>
+            <p>Comment: ${savedComment}</p>
+            <p>Accepted Terms: ${savedCheck}</p>
+
+            <div class="displayDiv">
+              <button type="button" class="mainPage" onclick="mainPage()">Display Page</button>
+            </div>
+          `;
+        } else {
+          saveData.innerHTML = "<p>No data saved yet.</p>";
+        }
+      }
     }
-  }
-}
 
-window.onload = showSavedData; 
-</script>
+    window.onload = showSavedData;
+
+    function mainPage() {
+      window.location.href = "validForm.html";
+    }
+  </script>
 
 </body>
-
 </html>

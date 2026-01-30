@@ -69,7 +69,7 @@ console.log("Password:", localStorage.getItem("Password"));
 console.log("Age:", localStorage.getItem("Age"));
 console.log("Comment:", localStorage.getItem("Comment"));
 console.log("Check:", localStorage.getItem("Check"));
-
+ location.reload();
     
   }
 
@@ -87,6 +87,7 @@ function showError(input, message) {
 function goToDisplay() {
   window.location.href = "disply.html";
 }
+
 function showSavedData() {
   let saveData = document.querySelector(".showData");
   let savedName = localStorage.getItem("Name");
@@ -112,4 +113,9 @@ function showSavedData() {
     }
   }
 }
+
+document.querySelector(".reset").addEventListener("click",function(){
+  localStorage.clear();
+})
+
 

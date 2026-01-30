@@ -1,15 +1,19 @@
 body {
+
   font-family: monospace;
   background: aliceblue;
-  display: flex;
+
   justify-content: center;
   align-items: center;
-  margin: 30px;
+  margin: 0px;
+
 }
 
 .container {
+  margin-top: 30px;
   background: #ffffff;
-  padding: 35px;
+  padding: 20px;
+  padding-bottom: 30px;
   width: 380px;
   border-radius: 14px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.52);
@@ -153,3 +157,89 @@ small {
 
 }
 
+.mainCon{
+  width: 100%;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+
+}
+.welcome h3 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+
+    transition: all 0.4s ease-in-out; 
+    cursor: pointer;
+}
+
+
+.welcome h3:hover {
+    font-size: 45px; 
+    color: #007bff;  
+    letter-spacing: 2px; 
+}
+.head{
+  height: 80vh;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.head h3{
+      font-size: 40px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+
+    transition: all 0.4s ease-in-out; 
+    cursor: pointer;
+}.head h3:hover {
+    font-size: 45px; 
+    color: #007bff;  
+    letter-spacing: 2px; 
+}
+.navbar {
+
+  display: flex;
+  background: #bdabab;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 50px;
+    transition: transform 0.3s ease;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.3s ease;
+}
+
+.navbar li:hover {
+  transform: scale(1.13);
+}
+
+.des{
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+.des p , h3{
+  margin: 5px;
+}
+.footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 30px;
+  font-size: 14px;
+}
