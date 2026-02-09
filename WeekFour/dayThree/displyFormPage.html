@@ -34,14 +34,14 @@
     </main>
 
     <script>
-        // LocalStorage se data uthao
+       
         let data = JSON.parse(localStorage.getItem("userData"));
 
         if (!data) {
-            // Agar koi data nahi hai
+          
             document.body.innerHTML = "<p>No data found. Please submit the form first.</p>";
         } else {
-            // Data ko HTML me set karo
+        
             document.querySelector(".nameField").innerText = data.name;
             document.querySelector(".ageField").innerText = data.age;
             document.querySelector(".emailField").innerText = data.email;
