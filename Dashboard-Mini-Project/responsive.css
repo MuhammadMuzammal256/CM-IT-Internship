@@ -1,0 +1,1139 @@
+@media (max-width: 1200px) {
+  nav {
+    margin: 0px;
+  }
+
+  .navText {
+    display: flex;
+    justify-content: flex-end;
+
+    width: 100%;
+    align-items: center;
+    margin: 0px;
+  }
+  .navText ul {
+    display: none;
+  }
+  .login-btn {
+    display: inline;
+    margin: 0px;
+  }
+  .navText img {
+    display: block;
+    width: 25px;
+    padding-right: 48px;
+  }
+  .logo img {
+    padding-left: 48px;
+  }
+
+  .navText ul {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 105px;
+    margin: 0px;
+    background: #8ec63f;
+  width: 98%;
+
+    height: 360px;
+
+    z-index: 10;
+  }
+  .navText ul li {
+    padding: 0px 48px;
+  }
+
+  .navText ul li:hover {
+    height: 15px;
+    border-radius: 2px;
+    margin: 0px;
+    padding: 0px;
+    border-bottom: 3px solid yellow;
+  }
+
+  main {
+    background-image: url("svg/bg1.svg");
+    position: relative;
+    width: 100vw;
+  }
+  .mainCard {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  goGreenBtn {
+    margin-bottom: 40px;
+  }
+  .bookTable {
+    margin: 10px;
+    margin-right: 48px;
+    width: 301px;
+
+  }
+  .goGreen {
+    margin: 10px;
+    flex-wrap: wrap;
+    margin-left: 79px;
+  }
+  .goGreen span {
+    color: #8ec63f;
+    font-size: 77px;
+    text-underline-offset: 16px;
+  }
+  .goGreen h1 {
+    font-weight: bold;
+    font-size: 77px;
+    margin: 40px 0px;
+  }
+  .menuBtn{
+        width: 128px;
+    font-size: 11px;
+  }
+  .getStartedBtn{
+    width: 128px;
+    font-size: 11px;
+  }
+  .goGreen h6 {
+    font-weight: 400;
+    width: 200px;
+    font-size: 19px;
+    margin: 0px;
+  }
+  .goGreenBtn {
+    margin-bottom: 40px;
+  }
+
+  .expressFootHeading p {
+    text-align: start;
+    max-width: 512px;
+    width: auto;
+    padding: 0px;
+    padding-right: 10px;
+    color: #797979;
+margin-top: 27px;
+    font-weight: 400;
+    line-height: 1.5;
+
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+  }
+  .expressCard {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    /* width: 1004px; */
+    background: white;
+    /* height: 164px; */
+    box-shadow: 0px 4px 10px 0px #00000033;
+    border-radius: 5px;
+    gap: 30px;
+    padding: 30px 20px;
+  }
+  .s2-mainContainer-card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 105px;
+    margin-top: 46px;
+    justify-content: center;
+  }
+  .s2-container h1 {
+    font-size: 40px;
+  }
+
+  .s5-container h1 {
+    font-size: 40px;
+  }
+  .blurLeaf {
+    bottom: 120px;
+  }
+
+  .blurLeaf img {
+    width: 80px;
+  }
+  .menu-items p {
+    margin: 10px 0px;
+  }
+  .mainNums {
+    gap: 0px;
+    justify-content: space-around;
+    padding-bottom: 40px;
+    padding: 0px;
+  }
+  .bigSideLeaf img {
+    display: none;
+  }
+  .s4 {
+    background-image: url(svg/bg2.svg);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    max-height: 424px;
+    height: 424px;
+}
+  .s4-container h1 {
+    font-size: 40px;
+    font-weight: 600;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+  }
+  .right-leaf {
+    height: 150px;
+    position: absolute;
+    right: 0px;
+    bottom: -70px;
+    z-index: 5;
+  }
+  .gridImgs {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .grid1,
+  .grid2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 13px;
+    justify-content: center;
+  }
+
+  .gridFastFood {
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0px 0px;
+    gap: 15px;
+  }
+  .inputCard input {
+    max-width: 413px;
+  }
+  textarea {
+    max-width: 413px;
+  }
+  .fastFoodCard {
+    padding: 32px;
+  }
+  .expressFoot img{
+  width: 353px;
+}
+.expressFootHeading h6{
+  font-size: 16px;
+}
+.expressFootHeading h1{
+  font-size: 48px;
+}
+.expressFootHeading h1 span {
+    color: #8ec63f;
+    font-size: 48px;
+}
+
+    .expressFootHeading button {
+        width: 135px;
+        height: 43px;
+        margin-top: 24px;
+        font-size: 13px;
+    }
+.inputsBtn input{
+width: 266px;
+}
+.findTable{
+  width: 290px;
+}
+
+}
+
+@media (min-width: 700px) and (max-width: 1002px) {
+  .inputCard input {
+    max-width: 253px;
+  }
+  .foodcard {
+    display: flex;
+    gap: 11px;
+    align-items: center;
+}
+  .foodcard img{
+  width: 48px;
+}
+.foodcardDes p {
+    width: 100px;
+    font-weight: 400;
+    font-size: 11px;
+    font-weight: 400;
+    color: #797979;
+    margin: 0px;
+    margin-top: 5px;
+    line-height: 1.4;
+}
+.foodcardDes h3 {
+    font-size: 13px;
+    font-weight: 700;
+    margin: 0px;
+}
+    .expressFoot img {
+        width: 353px;
+    }
+
+    .expressFootHeading button {
+    width: 135px;
+    height: 43px;
+    padding: 12px 25px;
+    border: none;
+    background: #8ec63f;
+    color: white;
+    font-size: 13px;
+    border-radius: 25px;
+    margin-top: 24px;
+
+}
+  textarea {
+    max-width: 253px;
+  }
+  .grid1 img,
+  .grid2 img {
+    max-width: 334px !important;
+    max-height: 250px;
+    width: 100%;
+
+    height: auto;
+
+    object-fit: cover;
+  }
+  .s2-container-card img {
+    width: 125px;
+    height: 125px;
+  }
+  .s2-container-card h5 {
+    font-weight: 400;
+    font-size: 13px;
+    margin: 0px;
+  }
+  .s2-container-card p {
+    font-weight: 400;
+    font-size: 12px;
+    color: #797979;
+    width: 151px;
+    height: 58px;
+    margin: 0px;
+    margin-top: 18px;
+    margin-bottom: 0px;
+  }
+  .s2-mainContainer-card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 46px;
+    justify-content: center;
+  }
+  .s2-container-card span {
+    margin-right: 27px;
+  }
+  
+}
+@media (max-width: 830px) {
+    .expressCard {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        max-width: 1000px;
+        /* width: 1004px; */
+        background: white;
+        /* height: 164px; */
+        box-shadow: 0px 4px 10px 0px #00000033;
+        border-radius: 5px;
+        gap: 2px;
+        padding: 30px 20px;
+    }
+
+  
+}
+
+@media (max-width: 860px) {
+  main {
+    height: 800px;
+  }
+
+    .bookTable{
+      margin: 40px;
+              margin-top: 0px;
+    }
+        .goGreen {
+        margin: 10px;
+        flex-wrap: wrap;
+        margin-left: 54px;
+    }
+
+}
+  
+
+@media (min-width: 660px) and (max-width: 700px) {
+
+      .expressCard {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        max-width: 1000px;
+        /* width: 1004px; */
+        background: white;
+        /* height: 164px; */
+        box-shadow: 0px 4px 10px 0px #00000033;
+        border-radius: 5px;
+        gap: 2px;
+        padding: 30px 20px;
+    }
+
+  .gridFastFood {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .grid1 img,
+  .grid2 img {
+    max-width: 334px !important;
+    max-height: 250px;
+    width: 100%;
+
+    height: auto;
+
+    object-fit: cover;
+  }
+  .foodcard {
+    display: flex;
+    gap: 11px;
+    align-items: center;
+}
+
+  .foodcard img{
+  width: 48px;
+}
+.foodcardDes p {
+    width: 100px;
+    font-weight: 400;
+    font-size: 11px;
+    font-weight: 400;
+    color: #797979;
+    margin: 0px;
+    margin-top: 5px;
+    line-height: 1.4;
+}
+.foodcardDes h3 {
+    font-size: 13px;
+    font-weight: 700;
+    margin: 0px;
+}
+}
+
+@media (max-width: 660px) {
+  nav {
+    margin: 0px;
+  }
+  .logo {
+    display: none;
+  }
+  .navText {
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+    align-items: center;
+  }
+  .navText ul {
+    display: none;
+  }
+  .login-btn {
+    margin-left: 9px;
+    display: inline;
+    margin-bottom: 10px;
+  }
+  .navText img {
+    display: block;
+    width: 25px;
+    padding: 0px 10px;
+  }
+
+  .grid1 img,
+  .grid2 img {
+    max-width: 334px !important;
+    max-height: 250px;
+    width: 100%;
+
+    height: auto;
+
+    object-fit: cover;
+  }
+
+  .navText ul {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 65px;
+    margin: 0px;
+    background: #8ec63f;
+    width: 200px;
+
+    height: 360px;
+
+    z-index: 10;
+  }
+
+  .navText ul li:hover {
+    height: 15px;
+    border-radius: 2px;
+    margin: 0px;
+    padding: 0px;
+    border-bottom: 3px solid yellow;
+  }
+
+  .mainCard {
+    display: flex;
+  }
+
+  .expressFoot {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .expressFoot img {
+    width: 420px;
+    max-width: 300px;
+    object-fit: cover;
+  }
+
+  .s1 {
+    padding: 40px;
+  }
+  .blurLeaf img {
+    width: 80px;
+  }
+
+  .menu-grid {
+    margin: 20px 0px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .mainNums {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    justify-content: center;
+      padding: 0px;
+    padding-bottom: 40px;
+  
+  }
+
+  .bookTable {
+    width: 280px;
+    margin: 10px;
+    text-align: start;
+  }
+
+  .s4 {
+    background: url("svg/bg3.svg") no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    max-height: 1000px;
+    height: auto;
+  }
+
+  .inputsBtn input {
+    width: 264px;
+  }
+  .findTable {
+    width: 284px;
+  }
+
+  .getStartedBtn {
+    width: 130px;
+    height: 45px;
+
+    font-weight: 800;
+    font-size: 11px;
+  }
+  .menuBtn {
+    width: 130px;
+    height: 45px;
+
+    font-weight: 800;
+    font-size: 11px;
+  }
+  .inputCard input {
+    height: 50px;
+    max-width: 260px;
+
+    border-radius: 5px;
+    background: #f8f7f2;
+    border: none;
+    box-shadow: 0px 3px 6px 0px #00000033;
+    padding: 0px 10px;
+    outline: none;
+  }
+  .inputCard .day {
+    max-width: 260px;
+  }
+  .inputCard textarea {
+    max-width: 260px;
+  }
+  .foodcard img {
+    width: 57px;
+  }
+  .gridFastFood {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0px;
+  }
+
+  .inputCard h2 {
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  .inputCard .day {
+    height: 50px;
+    max-width: 260px;
+
+    padding: 0px 10px;
+  }
+  textarea {
+    height: 100px;
+    max-width: 200px;
+    width: 100%;
+    border-radius: 5px;
+    background: #f8f7f2;
+    border: none;
+    box-shadow: 0px 3px 6px 0px #00000033;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: 400;
+    outline: none;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    background: black;
+    justify-items: center;
+    align-content: center;
+    width: 100%;
+  }
+  .footer-left {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 030px;
+    margin: 0px 20px;
+    justify-items: start;
+    align-content: center;
+    justify-content: center;
+    text-align: start;
+    object-fit: cover;
+  }
+  .footer-left h1 {
+    font-size: 23px;
+  }
+  .footer-right {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  .footer-right img {
+    height: 300px;
+    object-fit: cover;
+    margin: 0px;
+    padding: 0px;
+  }
+  .footer2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 52px;
+    height: 200px;
+  }
+  .footer2 h1 {
+    font-size: 20px;
+    margin: 10px;
+  }
+  .footer2 button {
+    margin: 10px;
+
+    height: 38px;
+    font-size: 12px;
+  }
+  main {
+    height: 800px;
+  }
+
+  .week p {
+    font-size: 10px;
+  }
+  .time img {
+    width: 40px;
+  }
+  .locations {
+    font-size: 10px;
+  }
+  .locations img {
+    width: 40px;
+  }
+}
+
+/* 
+@media (max-width: 500px) {
+  nav {
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+  }
+
+  .logo {
+    display: none;
+  }
+  .navText {
+    width: 99%;
+  }
+  .navText ul {
+    display: none;
+  }
+  .login-btn {
+    margin-left: auto;
+    display: block;
+  }
+  .navText img {
+    display: block;
+    width: 25px;
+    pad
+  }
+
+  .navText {
+    display: flex;
+    gap: 0px;
+  }
+  .navText ul {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 65px;
+    margin: 0px;
+    background: #8ec63f;
+    width: 200px;
+
+    height: 360px;
+
+    z-index: 10;
+  }
+
+  .navText ul li:hover {
+    height: 15px;
+    border-radius: 2px;
+    margin: 0px;
+    padding: 0px;
+    border-bottom: 3px solid yellow;
+  }
+
+  main {
+    background-image: url("svg/bg1.svg");
+    position: relative;
+    width: 100%;
+    height: 800px;
+  }
+  .mainCard {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .goGreen span {
+    color: #8ec63f;
+    font-size: 50px;
+    text-underline-offset: 16px;
+  }
+  .goGreen h1 {
+    font-weight: bold;
+    font-size: 50px;
+    margin: 40px 0px;
+  }
+  .goGreen h6 {
+    font-weight: 400;
+    width: 200px;
+    font-size: 18px;
+    margin: 0px;
+  }
+  .goGreenBtn {
+    margin-bottom: 40px;
+  }
+  .getStartedBtn {
+    width: 120px;
+    height: 45px;
+    border-radius: 25px;
+    border: none;
+    font-size: 10px;
+    color: white;
+    background: #8ec63f;
+    font-weight: 700;
+  }
+  .menuBtn {
+    width: 120px;
+    height: 45px;
+    border-radius: 25px;
+    border: 2px solid white;
+    color: white;
+    background: transparent;
+    font-weight: 700;
+    margin-right: 0px;
+    font-size: 12px;
+  }
+
+  .bookTable {
+    width: 300px;
+    border-radius: 10px;
+    border: #8ec63f solid 1px;
+    height: 315px;
+    padding: 15px 10px;
+    backdrop-filter: blur(20px);
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    position: relative;
+  }
+
+  .s1 {
+    display: flex;
+    flex-direction: column;
+    height: 1300px;
+    background: #f8f7f2;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+    z-index: 4;
+  }
+  .expressFoot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 30px;
+    align-content: center;
+
+    margin-top: 20px;
+  }
+  .expressFoot {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+
+
+  .expressFoot img {
+    width: 301px;
+  }
+
+  .expressFootHeading p {
+    max-width: 323px;
+    width: 100%;
+    color: #797979;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+
+  .expressFootHeading button {
+    width: 114px;
+    height: 38px;
+    text-align: center;
+    margin: 0px;
+    border: none;
+    background: #8ec63f;
+    color: white;
+    border-radius: 25px;
+    font-size: 10px;
+    margin-top: 5px;
+  }
+
+  .expressCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 250px;
+    align-content: center;
+    background: white;
+    height: 520px;
+    box-shadow: 0px 4px 10px 0px #00000033;
+    border-radius: 5px;
+
+    padding: 50px 40px;
+  }
+  .blurLeaf {
+    position: absolute;
+    right: 0%;
+    top: 10vh;
+    z-index: 4;
+  }
+
+  .blurLeaf img {
+    width: 80px;
+    max-width: 60px;
+    height: auto;
+  }
+
+  .s2 {
+    height: 1800px;
+  }
+
+  .s2-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .s2-container h6 {
+    font-family: Cuprum;
+    font-weight: 400;
+    color: #8ec63f;
+    font-size: 14px;
+    margin: 15px 0px;
+  }
+
+  .s2-container h1 {
+    margin: 0px;
+    font-size: 42px;
+    font-weight: 700;
+  }
+  .s2-mainContainer-card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+  }
+
+  .s3 {
+    height: 750px;
+  }
+
+  .menu-grid {
+    margin: 20px 0px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  button {
+    width: 145px;
+    height: 37px;
+
+    padding: 0px 0px;
+    border: none;
+    background: #8ec63f;
+    color: white;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 10px;
+  }
+
+  .menu-grid .menu-items p {
+    margin: 5px;
+    font-size: 11px;
+  }
+
+  .title-price h3 {
+    font-size: 12px;
+    margin: 0px;
+  }
+
+  .s4 {
+    display: flex;
+    flex-direction: column;
+    background: url("svg/bg3.svg");
+    height: 800px;
+    max-height: 800px;
+  }
+  .s4 img {
+    width: 96px;
+    bottom: -60;
+  }
+  .bigSideLeaf {
+    position: absolute;
+    top: -90px;
+  }
+
+  .s4-container h6 {
+    font-size: 14px;
+    margin: 10px 0px;
+    margin-top: 80px;
+  }
+
+  .s4-container h1 {
+    font-size: 38px;
+    margin: 0px;
+    margin-bottom: 10px;
+  }
+  .bigSideLeaf img {
+    max-width: 120px;
+    height: auto;
+    margin: 0px;
+  }
+  .s4-container {
+    text-align: center;
+  }
+
+  .mainNums {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .s4-container h5 {
+    font-size: 12px;
+    margin: 20px;
+  }
+
+  .nums h1 {
+    font-size: 58px;
+    font-weight: 700;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0px;
+  }
+  .s5 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    padding: 20px;
+  }
+  .s5-container {
+    margin: 0px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .s5-container h1 {
+    margin: 0px;
+    font-size: 42px;
+    font-weight: 700;
+  }
+
+  .grid1 img,
+  .grid2 {
+    width: 100%;
+  }
+  .grid1 img,
+  .grid2 img {
+    width: 100%;
+    height: 100%;
+    max-height: 185px;
+    max-width: 448px;
+    object-fit: cover;
+  }
+
+  .s6 {
+    height: 1100px;
+  }
+  .fastFoodCard {
+    max-width: 220px;
+    width: 100%;
+    padding: 20px 30px;
+  }
+  .gridFastFood {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0px;
+  }
+  .inputCard h2 {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .inputCard input {
+    height: 50px;
+    max-width: 200px;
+    width: 100%;
+    border-radius: 5px;
+    background: #f8f7f2;
+    border: none;
+    box-shadow: 0px 3px 6px 0px #00000033;
+    padding: 0px 10px;
+    outline: none;
+  }
+
+  .inputCard .day {
+    height: 50px;
+    max-width: 200px;
+    width: 100%;
+
+    padding: 0px 10px;
+
+    background: #f8f7f2 url("svg/date.svg") no-repeat right 10px center;
+  }
+  textarea {
+    height: 100px;
+    max-width: 200px;
+    width: 100%;
+    border-radius: 5px;
+    background: #f8f7f2;
+    border: none;
+    box-shadow: 0px 3px 6px 0px #00000033;
+    padding: 0px 10px;
+    font-size: 12px;
+    font-weight: 400;
+    resize: none;
+    outline: none;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    height: 650px;
+    background: black;
+    justify-items: center;
+    align-content: center;
+    width: 100%;
+  }
+  .footer-left {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+
+    padding: 030px;
+    margin: 0px;
+    justify-items: start;
+    align-content: center;
+    justify-content: center;
+    text-align: start;
+    object-fit: cover;
+  }
+  .footer-right {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  .footer-right img {
+    height: 300px;
+    object-fit: cover;
+    margin: 0px;
+    padding: 0px;
+  }
+  .footer2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 52px;
+    height: 250px;
+  }
+  .footer2 h1 {
+    font-size: 20px;
+    margin: 10px;
+  }
+  .footer2 button {
+    margin: 10px;
+    width: 110px;
+    height: 38px;
+
+    font-size: 12px;
+  }
+}
+ */

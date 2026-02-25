@@ -1,0 +1,340 @@
+@media (max-width: 1200px) {
+  nav {
+    margin: 0px;
+  }
+
+  .navText {
+    display: flex;
+    justify-content: flex-end;
+
+    width: 100%;
+    align-items: center;
+    margin: 0px;
+  }
+  .navText ul {
+    display: none;
+  }
+  .login-btn {
+    display: inline;
+    margin: 0px;
+  }
+  .navText img {
+    display: block;
+    width: 25px;
+    padding-right: 48px;
+  }
+  .logo img {
+    padding-left: 48px;
+  }
+
+  .navText ul {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 105px;
+    margin: 0px;
+    background: #8ec63f;
+  width: 98%;
+
+    height: 360px;
+
+    z-index: 10;
+  }
+  .navText ul li {
+    padding: 0px 48px;
+  }
+
+  .navText ul li:hover {
+    height: 15px;
+    border-radius: 2px;
+    margin: 0px;
+    padding: 0px;
+    border-bottom: 3px solid yellow;
+  }
+
+  main {
+    background-image: url("svg/bg1.svg");
+    position: relative;
+    width: 100vw;
+  }
+  .mainCard {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  goGreenBtn {
+    margin-bottom: 40px;
+  }
+  .bookTable {
+    margin: 10px;
+    margin-right: 48px;
+    width: 301px;
+
+  }
+  .goGreen {
+    margin: 10px;
+    flex-wrap: wrap;
+    margin-left: 79px;
+  }
+  .goGreen span {
+    color: #8ec63f;
+    font-size: 77px;
+    text-underline-offset: 16px;
+  }
+  .goGreen h1 {
+    font-weight: bold;
+    font-size: 77px;
+    margin: 40px 0px;
+  }
+  .menuBtn{
+        width: 128px;
+    font-size: 11px;
+  }
+  .getStartedBtn{
+    width: 128px;
+    font-size: 11px;
+  }
+  .goGreen h6 {
+    font-weight: 400;
+    width: 200px;
+    font-size: 19px;
+    margin: 0px;
+  }
+  .goGreenBtn {
+    margin-bottom: 40px;
+  }
+
+  .expressFootHeading p {
+    text-align: start;
+    max-width: 512px;
+    width: auto;
+    padding: 0px;
+    padding-right: 10px;
+    color: #797979;
+margin-top: 27px;
+    font-weight: 400;
+    line-height: 1.5;
+
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+  }
+  .expressCard {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    /* width: 1004px; */
+    background: white;
+    /* height: 164px; */
+    box-shadow: 0px 4px 10px 0px #00000033;
+    border-radius: 5px;
+    gap: 30px;
+    padding: 30px 20px;
+       z-index: 30;
+  }
+  .s2-mainContainer-card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 46px;
+    justify-content: center;
+  }
+  .s2-container h1 {
+    font-size: 48px;
+  }
+  .s2-container-card img{
+    width: 125px;
+    height: 125px;
+  }
+  .s2-container-card h5 {
+    font-weight: 400;
+    font-size: 13px;
+    margin: 0px;
+}
+.s2-container-card p {
+    font-weight: 400;
+    font-size: 12px;
+    color: #797979;
+    width: 151px;
+    height: 58px;
+    margin: 0px;
+    margin-top: 13px;
+    margin-bottom: 20px;
+}
+.s2-container-card span {
+    display: flex;
+    font-weight: 400;
+    font-size: 10px;
+    color: #000;
+    text-decoration: underline;
+    text-decoration-color: #8ec63f;
+    text-underline-offset: 18px;
+    text-decoration-thickness: 4px;
+    border-radius: 50px;
+    justify-content: center;
+    margin-bottom: 47px;
+    margin-right: 30px;
+}
+.s2-container h5 {
+    text-align: center;
+    margin: 0px;
+    color: #797979;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0px 0px;
+    margin-top: 12px;
+    margin-bottom: 39px;
+}
+  .s5-container h1 {
+    font-size: 40px;
+  }
+
+
+
+  .menu-items p {
+    margin: 10px 0px;
+  }
+  .mainNums {
+    gap: 0px;
+    justify-content: space-around;
+    padding-bottom: 40px;
+    padding: 0px;
+  }
+  .bigSideLeaf img {
+   width: 180px;
+   margin-bottom: 106px;
+  }
+  .s4 {
+    background-image: url(svg/bg2.svg);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    max-height: 424px;
+    height: 424px;
+}
+  .s4-container h1 {
+    font-size: 40px;
+    font-weight: 600;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+  }
+  .right-leaf {
+    height: 150px;
+    position: absolute;
+    right: 0px;
+    bottom: -70px;
+    z-index: 5;
+  }
+  .gridImgs {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .grid1,
+  .grid2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 13px;
+    justify-content: center;
+  }
+
+  .gridFastFood {
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0px 0px;
+gap: 50px;
+  }
+  .inputCard input {
+    max-width: 413px;
+  }
+  textarea {
+    max-width: 413px;
+  }
+  .fastFoodCard {
+    padding: 32px;
+  }
+  .expressFoot img{
+  width: 353px;
+}
+.expressFootHeading h6{
+  font-size: 16px;
+}
+.expressFootHeading h1{
+  font-size: 48px;
+}
+.expressFootHeading h1 span {
+    color: #8ec63f;
+    font-size: 48px;
+}
+
+    .expressFootHeading button {
+        width: 135px;
+        height: 43px;
+        margin-top: 24px;
+        font-size: 13px;
+    }
+.inputsBtn input{
+width: 266px;
+}
+.findTable{
+  width: 290px;
+}
+.expressFoot img{
+    width: 353px;
+}
+.s2-container h6 {
+    font-family: Cuprum;
+    font-weight: 400;
+    color: #8ec63f;
+    font-size: 14px;
+    margin: 12px 0px;
+}
+
+}
+
+@media (max-width:768) {
+    .goGreen span {
+    color: #8ec63f;
+    text-decoration: underline;
+    text-underline-offset: 36px;
+    border-radius: 50px;
+    text-decoration-thickness: 4px;
+    font-size: 77px;
+}
+    
+}
+
+
+
+@media (max-width: 1200px){
+    .s1{
+        display: none;
+    }
+     .s2{
+        display: none;
+    }
+     .s3{
+        display: none;
+    }
+     .s4{
+        display: none;
+    }
+     .s5{
+        display: none;
+    }
+     .s6{
+        display: none;
+    }
+    .footer{
+        display: none;
+    }
+    .footer2{
+          display: none;
+    }
+}
