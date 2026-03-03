@@ -9,6 +9,9 @@
     bottom: 0px;
 
 }
+.navText ul li{
+  margin-left: 42px;
+}
 .navText ul li:hover{
   height: 32px;
 }
@@ -1193,6 +1196,7 @@ gap: 15px;
    .navText ul li{
     padding: 0px;
     margin: 0px;
+    margin-left: 20px;
     
    }
 
